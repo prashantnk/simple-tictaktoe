@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+height:100vh;
+background: linear-gradient( skyblue , purple) ;
+}
+table{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+td{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 50px;
+    text-align: center;
+ background-color: #b1a1c1;
+    line-height: 100px;
+    text-align: center;
+    cursor: pointer;
+}
